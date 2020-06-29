@@ -3,19 +3,20 @@
 
 name = "Daily Coding Challenges Theme"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
-tags = []
-features = []
-min_version = "0.41.0"
+licenselink = "https://github.com/vhaos/daily-coding-challenges-theme/blob/master/LICENSE"
+description = "A clean, responsive hugo theme for Vhaos's daily coding challenges. Originally forked from hexo theme cactus created by @probberechts, based on it's hugo port by @monkeyWzr"
+homepage = "https://github.com/vhaos/daily-coding-challenges-theme"
+tags = ["minimal", "responsive", "clean"]
+features = ["customizable", "color"]
+min_version = "0.48"
 
+# If the theme has a single author
 [author]
-  name = ""
-  homepage = ""
+  name = "Kareem Daggash"
+  homepage = "https://github.com/vhaos"
 
 # If porting an existing theme
 [original]
-  name = ""
-  homepage = ""
-  repo = ""
+  author = "Pieter Robberechts"
+  homepage = "https://github.com/probberechts"
+  repo = "https://github.com/probberechts/hexo-theme-cactus"
