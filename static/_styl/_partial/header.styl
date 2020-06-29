@@ -28,9 +28,9 @@
     border-radius: 5px
     background-size: $logo-width $logo-height
     background-repeat: no-repeat
-    if $logo-grayout
-      filter: grayscale(100%)
-      -webkit-filter: grayscale(100%)
+    if $logo-fadeout
+      filter: opacity(70%)
+      -webkit-filter: opacity(70%)
 
   #nav
     color: $color-accent-1
@@ -69,7 +69,7 @@
         a
           margin-right: 0
 
-if $logo-grayout
+if $logo-fadeout
   #header:hover
     #logo
       filter: none
